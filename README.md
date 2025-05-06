@@ -24,7 +24,8 @@ O objetivo é fornecer uma ferramenta simples e intuitiva que auxilie na tomada 
 
 ## 📸 Captura de Tela
 
-![Exemplo da Interface](screenshot.png) <!-- Substituir por uma imagem real se quiser -->
+![image](https://github.com/user-attachments/assets/9024b599-7af6-425c-8971-22d9e2dc0f5a)
+
 
 ## 📂 Execução Local
 
