@@ -1,13 +1,35 @@
-POSTECH - Data Analytics - Fase 4
-Imagine que você foi escalado como cientista de dados em uma grande
-empresa de petróleo e precisa criar um modelo preditivo para garantir qual será
-a previsão do preço do petróleo em dólar e instanciar esse modelo preditivo em
-uma aplicação para auxiliar na tomada de decisão.
-Utilize o Streamlit para realizar a interface visual da aplicação e não se
-esqueça de realizar o deploy do modelo nessa aplicação.
-Base de dados a ser utilizada:
-http://www.ipeadata.gov.br/ExibeSerie.aspx?module=m&serid=1650971
-490&oper=view
-A entrega deve conter:
-• Link da aplicação do modelo preditivo no streamlit.
-• Notebook Python com toda pipeline de construção do modelo.
+# 📊 Previsão do Preço do Petróleo - Ipea + Streamlit
+
+Este projeto apresenta uma aplicação interativa desenvolvida com **Streamlit** para previsão do preço do barril de petróleo (Brent) com base em dados históricos extraídos da plataforma **Ipeadata**. A modelagem preditiva é realizada utilizando o **Facebook Prophet**, uma poderosa biblioteca para séries temporais.
+
+## 🚀 Funcionalidades
+
+- Coleta automática de dados históricos do preço do petróleo via scraping da Ipeadata
+- Limpeza e tratamento dos dados com pandas
+- Previsão dos valores futuros com Prophet
+- Visualização interativa com Streamlit: gráficos históricos, previsão e componentes do modelo
+
+## 📦 Tecnologias Utilizadas
+
+- Python
+- Streamlit
+- Prophet
+- Pandas
+- Plotly
+- BeautifulSoup
+
+## 🧠 Objetivo
+
+O objetivo é fornecer uma ferramenta simples e intuitiva que auxilie na tomada de decisões com base em projeções do preço do petróleo, podendo ser usada por analistas de dados, investidores e interessados em macroeconomia.
+
+## 📸 Captura de Tela
+
+![Exemplo da Interface](screenshot.png) <!-- Substituir por uma imagem real se quiser -->
+
+## 📂 Execução Local
+
+```bash
+git clone https://github.com/RodriguesL1/ipea_streamlit.git
+cd ipea_streamlit
+pip install -r requirements.txt
+streamlit run app.py
