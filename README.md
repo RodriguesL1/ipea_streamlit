@@ -29,8 +29,8 @@ O objetivo é fornecer uma ferramenta simples e intuitiva que auxilie na tomada 
 
 ## 📂 Execução Local
 
-```bash
+[```bash
 git clone https://github.com/RodriguesL1/ipea_streamlit.git
 cd ipea_streamlit
 pip install -r requirements.txt
-streamlit run app.py
+streamlit run app.py](https://fiap-ipea.streamlit.app/)
